@@ -33,11 +33,6 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-
-.rich-text__text .rte {
-    border: 1px solid red;
-}
-
 @media screen and (min-width: 750px) {
   .rich-text:not(.rich-text--full-width),
   .rich-text--full-width.color-background-1 {
