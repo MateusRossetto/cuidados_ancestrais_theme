@@ -349,6 +349,11 @@ span.active-facets__button-inner {
   align-items: stretch;
 }
 
+.active-facets__button--light .active-facets__button-inner {
+
+  background-color: rgba(181, 248, 183, 0.95);
+}
+
 .active-facets__button-wrapper {
   align-items: center;
   display: flex;
