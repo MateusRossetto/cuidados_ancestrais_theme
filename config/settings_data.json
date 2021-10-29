@@ -29,37 +29,17 @@
               "link": ""
             }
           },
-<<<<<<< HEAD
           "7c275132-8b9a-4636-bccf-0c8173a7df8d": {
             "type": "announcement",
             "settings": {
               "text": "Veja nosso catálogo",
               "color_scheme": "accent-1",
               "link": "https://cuidados-ancestrais.myshopify.com/collections/all"
-=======
-          "5f8353e7-fab1-46df-9761-b136e557bbd7": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
-              "link": ""
-            }
-          },
-          "7c275132-8b9a-4636-bccf-0c8173a7df8d": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
-              "link": ""
->>>>>>> 13275fba535b726d1df4c4e768a90adff37a3607
             }
           }
         },
         "block_order": [
-<<<<<<< HEAD
-=======
           "0b95fe53-f801-4232-a256-1663bf58704c",
->>>>>>> 13275fba535b726d1df4c4e768a90adff37a3607
           "5f8353e7-fab1-46df-9761-b136e557bbd7",
           "7c275132-8b9a-4636-bccf-0c8173a7df8d"
         ],
