@@ -32,7 +32,7 @@
           "second-text-announcement-bar": {
             "type": "announcement",
             "settings": {
-              "subtext": "<h5 id='second-text-announcement'> Veja nosso catálogo </h5>",
+              "text": "Veja nosso catálogo",
               "color_scheme": "accent-1",
               "link": "https://cuidados-ancestrais.myshopify.com/collections/all"
             }
