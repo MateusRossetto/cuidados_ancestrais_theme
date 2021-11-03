@@ -21,7 +21,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "5f8353e7-fab1-46df-9761-b136e557bbd7": {
+          "first-text-announcement-bar": {
             "type": "announcement",
             "settings": {
               "text": "Seja bem-vindo!",
@@ -29,19 +29,18 @@
               "link": ""
             }
           },
-          "7c275132-8b9a-4636-bccf-0c8173a7df8d": {
+          "second-text-announcement-bar": {
             "type": "announcement",
             "settings": {
-              "text": "Veja nosso catálogo",
+              "subtext": "<h5 id='second-text-announcement'> Veja nosso catálogo </h5>",
               "color_scheme": "accent-1",
               "link": "https://cuidados-ancestrais.myshopify.com/collections/all"
             }
           }
         },
         "block_order": [
-          "0b95fe53-f801-4232-a256-1663bf58704c",
-          "5f8353e7-fab1-46df-9761-b136e557bbd7",
-          "7c275132-8b9a-4636-bccf-0c8173a7df8d"
+          "first-text-announcement-bar",
+          "second-text-announcement-bar"
         ],
         "settings": {
         }
@@ -61,14 +60,14 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "5172713e-3c2f-4712-b6c6-62b202751330": {
+          "endereco-loja": {
             "type": "text",
             "settings": {
               "heading": "",
               "subtext": "<p>Rua Luiza Mariah Sales, 480. São Paulo, SP<\/p>"
             }
           },
-          "98a5b310-026d-4f70-8c32-2aa7c38f27c1": {
+          "CNPJ-empresa": {
             "type": "text",
             "settings": {
               "heading": "",
@@ -84,8 +83,8 @@
           }
         },
         "block_order": [
-          "5172713e-3c2f-4712-b6c6-62b202751330",
-          "98a5b310-026d-4f70-8c32-2aa7c38f27c1",
+          "endereco-loja",
+          "CNPJ-empresa",
           "cb6b1102-0a24-484d-a662-bb6f5e457dd6"
         ],
         "settings": {
