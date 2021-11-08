@@ -11,7 +11,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("announcement-bar-list");
+  var slides = document.getElementsByClassName("announcement-bar__message h5");
 }
 
 slides[slideIndex-1].style.display = "block";
