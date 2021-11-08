@@ -1770,11 +1770,13 @@ input[type='checkbox'] {
 /* section-announcement-bar */
 #shopify-section-announcement-bar {
   z-index: 4;
+  display: inline-flex;
 }
 
 .announcement-bar {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   color: rgb(var(--color-foreground));
+  width: 50%;
 }
 
 .announcement-bar__link {
@@ -1804,7 +1806,7 @@ input[type='checkbox'] {
 .announcement-bar__message {
   font-size: 12px;
   text-align: center;
-  padding: 5px 20px;
+  padding: 10px 20px;
   margin: 0;
   letter-spacing: 0.1rem;
 }
