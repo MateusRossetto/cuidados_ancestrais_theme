@@ -30,7 +30,6 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    <script src="../assets/announcement-bar.js"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -161,6 +160,7 @@
       window.accessibilityStrings = {
         shareSuccess: `{{ 'general.share.success_message' | t }}`,
       }
+      
     </script>
 
     {%- if settings.predictive_search_enabled -%}
