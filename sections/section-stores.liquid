@@ -1,0 +1,58 @@
+
+{% comment %}
+  <link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+{% endcomment %}
+  
+
+<div class="page-width page-width--narrow">
+  <h1>{{ section.settings.header }}</h1>
+  {% for block in section.blocks %}
+    <div class="store-item">
+      <img src="{{ block.settings.image | img_url }}" alt="">
+      <h1>{{ block.settings.title }}</h1>
+      <p>{{ block.settings.content }}</p>
+    </div>
+    
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Stores",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "header",
+        "label": "Header"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "store",
+        "name": "Store",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

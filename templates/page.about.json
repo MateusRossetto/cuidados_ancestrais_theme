@@ -3,9 +3,14 @@
     "main": {
       "type": "main-page",
       "settings":{}
+    },
+    "stores": {
+      "type": "section-stores",
+      "settings":{}
     }
   },
   "order":[
-    "main"
+    "main",
+    "stores"
   ]
 }
