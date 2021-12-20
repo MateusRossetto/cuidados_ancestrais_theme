@@ -1,24 +1,31 @@
 
 {% comment %}
-  <link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 {% endcomment %}
-  
 
-<div class="page-width page-width--narrow">
-  <h1>{{ section.settings.header }}</h1>
-  {% for block in section.blocks %}
-    <div class="store-item">
-      <img src="{{ block.settings.image | img_url }}" alt="">
-      <h1>{{ block.settings.title }}</h1>
-      <p>{{ block.settings.content }}</p>
+<script src="{{ 'section-stores.js' | asset_url }}" defer="defer"></script>
+
+
+<stores-slider>
+  <div class="stores__slider">
+    <div class="page-width page-width--narrow">
+      <h1>{{ section.settings.header }}</h1>
+        <ul class="stores-carousel">
+          {% for block in section.blocks %}
+                <li class="store-item">
+                  <img class="photo-store" src="{{ block.settings.image | img_url }}" alt="">
+                  <h1>{{ block.settings.title }}</h1>
+                  <p>{{ block.settings.content }}</p>
+                </li>
+          {% endfor %}
+        </ul>
     </div>
-    
-  {% endfor %}
-</div>
+  </div>
+</stores-slider>
 
 {% schema %}
   {

@@ -2,26 +2,49 @@
   "sections": {
     "main": {
       "type": "main-page",
-<<<<<<< HEAD
-      "settings":{}
+      "settings": {
+      }
     },
     "stores": {
       "type": "section-stores",
-      "settings":{}
-    }
-  },
-  "order":[
-    "main",
-    "stores"
-  ]
-}
-=======
+      "blocks": {
+        "520706bf-ccb1-47dd-b7a2-6c7494b8d22e": {
+          "type": "store",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collecting-order-at-curbside-from-retail-store.jpg",
+            "title": "Loja 1 - Rua Direita",
+            "content": "<p>Loja 1 - Situada na Rua Direita, 385<\/p><p>Telefone: (11) 2256-9986<\/p><p>E-mail: cuidadosancestrais@gmail.com<\/p>"
+          }
+        },
+        "532c9a72-fee8-4ed8-bd6f-d0e8291c3dac": {
+          "type": "store",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-woman-in-her-shop.jpg",
+            "title": "Loja 2 - Rua Haddock Lobo",
+            "content": "<p>Loja 2 - Rua Haddock Lobo, 659<\/p><p>Telefone: (11) 6659-1156<\/p><p>E-mail: cuidadosancestrais@gmail.com<\/p>"
+          }
+        },
+        "1d1f1c62-f499-4ea2-a1e3-752407c213e0": {
+          "type": "store",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/small-business-interior.jpg",
+            "title": "Loja 3 - Rua Dona Veridiana",
+            "content": "<p>Loja 3 - Rua Dona Veridiana, 266<\/p><p>Telefone: (11) 3367-4522<\/p><p>E-mail: cuidadosancestrais@gmail.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "520706bf-ccb1-47dd-b7a2-6c7494b8d22e",
+        "532c9a72-fee8-4ed8-bd6f-d0e8291c3dac",
+        "1d1f1c62-f499-4ea2-a1e3-752407c213e0"
+      ],
       "settings": {
+        "header": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "stores"
   ]
 }
->>>>>>> Desenvolvimento
