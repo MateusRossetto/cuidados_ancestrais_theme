@@ -4,8 +4,12 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
 
+<script src="{{ 'quote.js' | asset_url }}" defer="defer"></script>
+
+
 <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
   <div class="rich-text color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width{% endif %}">
+    <div class="rich-text__text rte" {{ block.shopify_attributes }}><p id="quotation"></p></div>
     <div class="rich-text__blocks">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
